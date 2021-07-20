@@ -1,0 +1,113 @@
+body {
+  background-image: url(/Assets/images/ATLBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  background-color: rgba(39, 31, 31, 0.911);
+  color: rgb(150, 160, 8);
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem;
+  border: 2px solid red;
+  border-radius: 20px;
+}
+
+h4 {
+  color: rgb(150, 160, 8);
+  position: absolute;
+  left: 45%;
+  top: 1%;
+  box-align: center;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+input[type="radio"] {
+  border: 0px;
+  width: 20px;
+  height: 2em;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ATLlogo {
+  height: 150px;
+  width: 150px;
+}
+/* Quiz Classes */
+.quizContainer {
+  background-color: rgb(34, 29, 29, 0.9);
+  border-radius: 6px;
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 3rem;
+  /*-moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;*/
+  position: relative;
+}
+.quizcontainer #quiz1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nextButton {
+  border-radius: 6px;
+  text-align: center;
+  background-color: black;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 5px;
+  float: right;
+  right: 40%;
+}
+
+.question {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.choiceList {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(132, 170, 28);
+  font-size: 15px;
+  font-weight: bold;
+}
+.result {
+  width: 40%;
+  height: auto;
+  border-radius: 6px;
+  background-color: rgb(132, 170, 28);
+  margin: auto;
+  color: rgb(14, 1, 1);
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 80%;
+  left: 30%;
+}
